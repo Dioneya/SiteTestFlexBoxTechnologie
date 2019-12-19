@@ -1,0 +1,414 @@
+@import url(http://allfont.ru/allfont.css?fonts=titillium);
+html{
+    font-size: 16px;
+}
+
+body{
+    padding: 0;
+    margin:0 auto;
+}
+
+header{
+    min-height: 600px;
+    width: 100%;
+    background-color: #87509c;
+    
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.row{
+    
+    height: 160px;
+}
+
+.title{
+    max-height: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: baseline;
+}
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    width: 60%;
+}
+
+.nav .active{
+    background: #643a79;
+}
+
+.nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    font-family: 'Titillium', arial;
+    margin: 1%;
+    
+}
+
+.nav a:hover{
+    color: white;
+    text-decoration: none;
+    background: #643a79;
+}
+
+.header-info{
+    margin-top: 10%;
+    max-height: 150px;
+}
+
+p.header-info{
+    width: 60%;
+    text-align: center;
+    color: white;
+    font-family: 'Titillium', arial;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.button button{
+    width: 300px;
+    height: 68px;
+    background-color: #eb7d4b;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0 5px 0 #c86a40;
+    text-transform: uppercase;
+    border: none;
+}
+
+.button button:hover{
+    background-color: #ff8953;
+}
+
+main{
+    min-height: 750px;
+    width: 100%;
+    background: #17c2a4;
+}
+
+
+.main-content p{
+    margin-top: 10%;
+    text-align: center;
+    color: white;
+    font-family: 'Titillium', arial;
+    font-weight: bold;
+    font-size: 3rem;
+    
+}
+.line{
+    width: 100px;
+    height: 4px;
+    background: #14a58c;
+}
+
+.line-box{
+    display: flex;
+    justify-content: center;
+}
+
+p.sub-info{
+    text-align: center;
+    padding: 0;
+    margin-top: 2%;
+    font-weight: 100;
+    font-size: 1.1rem;
+    opacity: 0.9;
+    font-family: 'Titillium', arial;
+}
+
+.info-boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    max-width: 1140px;
+    max-height: 330px;
+    margin-top:3%;
+    
+}
+
+.info-box{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    max-height: 330px;
+}
+
+p.head-info-block{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Titillium', arial;
+    color: white;
+}
+.img{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-height: 160px; 
+}
+
+p.discription-info-block{
+    font-weight: 100;
+    margin: 0;
+    opacity: 0.9;
+    text-align: center;
+    font-size: 0.8rem;
+    font-family: 'Titillium', arial;
+    color: white;
+}
+
+.second-main{
+    min-height: 900px;
+    width: 100%;
+    background: #e7f1f8;
+}
+
+.second-main .main-content p{
+     color: #3c4761;
+}
+
+.second-main .line{
+    background-color: #c8d9e5;
+}
+
+.second-main .sub-info{
+    font-size: 1.1rem;
+    color: #3c4761;
+}
+
+.info-box-contacts{
+    width: 100%;
+    margin-top: 5%;
+    height: 100vh;
+    max-width: 1140px;
+    max-height: 560px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+
+.round-background{
+    width: 200px;
+    height: 200px;
+    background-color: #878787;
+    border-radius: 180%;
+}
+
+.info-box-contacts .info-box{
+    max-height: 500px;
+}
+
+p.head-info-block .second-main{
+    color: #27283d;
+}
+
+.info-box p.sub-head-info-block{
+    margin: 0;
+    color: #30bae7;
+    font-size: 0.9rem;
+}
+
+.second-main p.discription-info-block{
+    font-size: 0.95rem;
+    margin-top: 5%;
+}
+
+.second-main .discription-info-block{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-height: 155px;
+    height: 50vh;
+    width: 100%;
+}
+
+.icon-links{
+    width: 100%;
+    display: flex;
+    margin-right: 5%;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.icon-link{
+    max-width: 35px;
+    max-height: 35px;
+    height: 35px;
+    margin-left:5%;
+    width: 35px;
+    background-color: #bdd1df;
+    border-radius: 180%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.main2{
+    max-height: 660px;
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+}
+
+.main2 .main-content p{
+    color: #3c4761;
+}
+
+.main2 .line{
+    background-color: #dfe8ed;
+}
+
+.progress-box{
+    width: 100%;
+    margin-top: 5%;
+    height: 100vh;
+    max-width: 1140px;
+    max-height: 240px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.round-progress{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 138px;
+    height: 138px;
+    max-height: 138px;
+    max-width: 138px;
+}
+
+.round-progress img{
+    pointer-events: none; 
+    width: 138px;
+    height: 138px;
+    max-height: 138px;
+    max-width: 138px;
+    border-radius: 180%;
+    z-index: 1;
+    position: absolute;
+}
+
+.round-progress p{
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 100;
+    text-align: center;
+    position: absolute;
+    color: black;
+    z-index: 0;
+}
+
+.round-progress span{
+    font-size: 1.5rem;
+}
+
+.main3{
+    min-height: 1430px;
+    width: 100%;
+    background-color: #ffdd99;
+}
+
+.main3 p{
+    color: #393939;
+}
+
+.main3 .line{
+    background-color: #e5c37f;
+}
+
+.main3 ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-right: 11px;
+}
+
+.main3 li{
+    text-decoration: none;
+    list-style: none;
+    width: 84px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Titillium', arial;
+    color: #464646;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    margin-left: 11px;
+    background-color: #ebc985;
+    transition: 0.5s;
+    text-transform: uppercase;
+}
+
+.main3 .active{
+    background-color: white;
+}
+
+.main3 li:hover{
+    cursor: pointer;
+    background-color: white;
+    transition: 0.5s;
+}
+
+.portfolio-box{
+    max-width: 1130px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.portfolio-block p.head-info{
+    margin: 0;
+    margin-top: 2%;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-family: 'Titillium', arial;
+}
+
+.portfolio-block{
+    margin-top: 5%;
+    margin-left: 20px;
+}
+
+.main3 .button button{
+    margin-top: 10%;
+    background-color:#17c2a4; 
+    box-shadow: 0 5px 0 #14a58c;
+}
+
+.main3 .button button:hover{
+    background-color: #20e9c6;
+}
