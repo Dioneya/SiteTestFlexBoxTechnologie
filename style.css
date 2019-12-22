@@ -412,3 +412,64 @@ p.head-info-block .second-main{
 .main3 .button button:hover{
     background-color: #20e9c6;
 }
+
+.main4{
+    min-height: 895px;
+    width: 100%;
+    background-color: #d74680;
+}
+
+.main4 .line{
+    background-color: #b73c6d;
+}
+.main4 .sub-info{
+    color: #fae6ee;
+}
+
+.testimotional{
+    max-width: 1140px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 5%;
+}
+
+.box-tem{
+    max-width: 540px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 10%;
+}
+
+.round{
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    border-radius: 180%;
+    margin-left: 5%;
+    
+}
+
+.tem-description{
+    width: 400px;
+}
+
+.tem-description p{
+    font-size: 1.3rem;
+    margin: 0;
+    font-weight: 100;
+    text-align: left;
+}
+
+.tem-description .head-info-block{
+    text-transform: uppercase;
+    margin-top: 5%;
+    font-weight: 300;
+}
+
+.tem-description .sub-head-info-block{
+    color: #ffdd99;
+}
